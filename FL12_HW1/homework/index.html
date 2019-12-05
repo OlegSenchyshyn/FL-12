@@ -15,22 +15,24 @@
               <img src="logo.png" alt="EPAM logo" />
               <h1>HTML Elements</h1>
               <hr />
-              <nav>
-                <a href="#home"><b>Home</b></a>
-                <a href="#headings"><b>Headings</b></a>
-                <a href="#textFormats"><b>Text formats</b></a>
-                <a href="#typesOfLists"><b>Types of lists</b></a>
-                <a href="#table"><b>Table</b></a>
-                <a href="#blockquotes"><b>Blockquotes</b></a>
-                <a href="#registration"><b>Registration</b></a>
-              </nav>
+              <div id="nav">
+                <nav>
+                  <a href="#home"><b>Home</b></a>
+                  <a href="#headings"><b>Headings</b></a>
+                  <a href="#textFormats"><b>Text formats</b></a>
+                  <a href="#typesOfLists"><b>Types of lists</b></a>
+                  <a href="#table"><b>Table</b></a>
+                  <a href="#blockquotes"><b>Blockquotes</b></a>
+                  <a href="#registration"><b>Registration</b></a>
+                </nav>
+              </div>
               <hr />
             </header>
             <main>
               <div id="home">
                 <p>
                   Lorem ipsum dolor sit amet,
-                  <a href="https://www.google.com/">test link</a>
+                  <a href="about:blank">test link</a>
                   adipiscing elit. Nullam dignissim convallis est. Quisque
                   aliquam.
                   <em>This is emphasized</em>. Donec faucibus. Nunc iaculis
@@ -80,11 +82,22 @@
                   <p>Article description</p>
                 </article>
                 <h3>Preformatted Text</h3>
-                <pre><br>Text in a <b>pre</b> element<br>is displayed in a fixed-width<br>font, and it preserves<br>both      <b>spaces</b> and<br><b>line breaks</b>
-              </pre>
+                <pre>
+                  
+Text in a <b>pre</b> element
+is displayed in a fixed-width
+font, and it preserves
+both           <b>spaces</b> and
+<b>line breaks</b>
+                </pre>
                 <h3>This is code</h3>
                 <pre>
-                <code><br>.flex {<br>display: flex;<br>justify-content: justify;<br>aliign-items: center;<br>}
+                <code>
+.flex {
+  display: flex;
+  justify-content: justify;
+  aliign-items: center;
+}                                      
                 </code>
               </pre>
               </div>
@@ -129,16 +142,6 @@
                     Web.
                   </dd>
                 </dl>
-                <div id="platformRating">
-                  <p>Platform:</p>
-                  <select id="cboPlatform" name="cboPlatform">
-                    <option>General</option>
-                    <option>Android</option>
-                    <option>Windows</option>
-                    <option>Web Service</option>
-                  </select>
-                </div>
-                <!-- Перевірити -->
                 <p>
                   Select for learning
                   <select>
