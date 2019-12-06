@@ -9,7 +9,14 @@ nav .tm-nav-item-link:hover {
 }
 .tm-banner-text {
   text-shadow: 5px 5px 3.5px #333;
+  animation-name: move;
+  animation-duration: 4s;
 }
 .tm-banner-inner {
   background: white;
+}
+@keyframes move {
+    0% {transform: translateX(200px);}
+    100% {transform: translateX(0px);}
+    }
 }
