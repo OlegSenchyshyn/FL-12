@@ -16,7 +16,53 @@ nav .tm-nav-item-link:hover {
   background: white;
 }
 @keyframes move {
-    0% {transform: translateX(200px);}
-    100% {transform: translateX(0px);}
-    }
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.flex-2-col {
+  display: flex;
+  align-items: center;
+}
+.tm-section-title {
+  text-align: center;
+}
+.tm-section-description {
+  text-indent: 25px;
+}
+.box-bg:hover {
+  background-color: lightgrey;
+  font-style: italic;
+}
+.heading h2 {
+  color: lightskyblue;
+  text-align: center;
+}
+.heading ol {
+  list-style-type: lower-alpha;
+}
+.heading li:hover::before {
+  content: ">";
+  font-weight: bold;
+  color: black;
+}
+.heading li:first-child::after,
+.heading li:nth-child(3)::after {
+  content: "New";
+  color: red;
+  vertical-align: top;
+  font-size: x-small;
+  font-weight: bold;
+  font-variant: petite-caps;
+}
+.blocks.tm-section-title {
+  text-align: left;
+}
+.blocks > .tm-team-description-container p:last-child {
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-style: italic;
 }
