@@ -1,4 +1,15 @@
-.tm-nav-item {
+nav .tm-nav-item:hover {
   background-color: lightskyblue;
+}
+nav .tm-nav-item-link:hover {
   color: #fff;
+}
+.tm-banner {
+  background: linear-gradient(90deg, lightskyblue, burlywood);
+}
+.tm-banner-text {
+  text-shadow: 5px 5px 3.5px #333;
+}
+.tm-banner-inner {
+  background: white;
 }
