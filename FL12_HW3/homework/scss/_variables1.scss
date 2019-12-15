@@ -7,6 +7,11 @@ $gradient: linear-gradient(90deg, #649412, #2b59dc);
 $fontOne: "Source Sans Pro", sans-serif;
 $fontTwo: "Hind", sans-serif;
 $fontThree: "Fresca", sans-serif;
+$fontFamily: (
+  sans: $fontOne,
+  hind: $fontTwo,
+  fresca: $fontThree
+);
 $textBG: #14a0c7;
 $secCardText: $fontOne;
 $secNFooterColor: #cfc4b4;
