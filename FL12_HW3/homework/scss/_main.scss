@@ -52,7 +52,7 @@ body {
   margin-left: auto;
   max-width: 1460px;
   background: $bodyBG;
-  font-family: $fontOne;
+  font-family: map-get($fontFamily, sans);
 }
 .header {
   background-image: $headerBG;
@@ -112,7 +112,7 @@ main {
     font-size: 30px;
     position: relative;
     z-index: 1;
-    font-family: $fontOne;
+    font-family: map-get($fontFamily, sans);
     color: $fontColor1;
     &::before {
       @include textBG(133px, 30px, 0, relative);
