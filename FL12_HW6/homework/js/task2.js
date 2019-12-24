@@ -13,7 +13,7 @@ if (a === "" || b === "" || c === "") {
 if (!(a + b > c && b + c > a && a + c > b) && (a === 0 || b === 0 || c === 0)) {
     alert("Triangle doesn’t exist");
     console.log("Triangle doesn’t exist");
-} else if (a === b && b == c) {
+} else if (a === b && b === c) {
     console.log("Equilateral triangle");
 } else if (a === b || a === c || b === c) {
     console.log("Isosceles triangle");
