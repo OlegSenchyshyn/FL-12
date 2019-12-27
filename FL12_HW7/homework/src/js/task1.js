@@ -1,7 +1,6 @@
 let email = prompt('Pleace enter your email');
 let fiveSymbols = 4;
 let sixSymbols = 5;
-
 if (email === '' || email === null) {
   alert('Canceled.');
 } else if (email.length < fiveSymbols) {
@@ -21,7 +20,6 @@ if (email === '' || email === null) {
         alert('You have failed the change.');
         break;
       case true:
-        
         oldPassword = prompt('Pleace enter your current password');
         if (
           email === 'user@gmail.com' && oldPassword === 'UserPass' ||
@@ -52,5 +50,3 @@ if (email === '' || email === null) {
 } else {
   alert('I don’t know you');
 }
-
-// regex for email  ---   /^[^\s@]+@[^\s@]+\.[^\s@]+$/
