@@ -84,27 +84,3 @@ function battle(fighter1, fighter2) {
     }
   }
 }
-
-// const fighter1 = new Fighter({
-//   name: 'Maximus',
-//   damage: 20,
-//   strength: 20,
-//   agility: 15,
-//   hp: 100
-// });
-
-// const fighter2 = new Fighter({
-//   name: 'Commodus',
-//   damage: 25,
-//   strength: 25,
-//   agility: 20,
-//   hp: 90
-// });
-
-// battle(fighter1, fighter2);
-// fighter2.getHealth();
-// battle(fighter1, fighter2);
-// fighter2.heal(50);
-// fighter2.getHealth();
-// fighter1.logCombatHistory();
-// fighter2.getStrength();
