@@ -15,15 +15,10 @@ class Fighter {
     this.attack = function(defender) {
       const successProbability = 100;
       let random = Math.floor(Math.random() * (successProbability + 1));
-      let attackProbability =
-        successProbability - (defender.getStrength() + defender.getAgility());
+      let attackProbability = successProbability - (defender.getStrength() + defender.getAgility());
       if (random <= attackProbability) {
         defender.dealDamage(fighter.damage);
-        console.log(
-          `${fighter.name} makes ${
-            fighter.damage
-          } damage to ${defender.getName()}`
-        );
+        console.log(`${fighter.name} makes ${fighter.damage} damage to ${defender.getName()}`);
       } else {
         console.log(`${fighter.name} missed`);
       }
